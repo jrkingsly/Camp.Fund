@@ -1,0 +1,91 @@
+.headline-bckgrnd {background-color:rgba(0,0,0,.8); padding:1.8em;}
+/* CSS Document */
+
+ul {padding-left:12px;}
+h1, h2 {color:#000;font-weight:400;}
+h2 {font-size:2.5em;}
+img {max-width:100%; height:auto;}
+label{font-size:.9em;margin-bottom:5px;color:#555;}
+#about1 {padding:5em 0 2em 0;}
+#about2 {background-color:#dddddd;min-height:375px;}
+#about3 {background:url(http://wealthforge.com/img/orange-wall.jpg) no-repeat scroll 50% 63% / cover;min-height:450px;}
+#stnd-section {min-height:450px;padding-top:6em;height:auto;}
+#thumbs img  {margin-bottom:16px; cursor:pointer; max-width:100%; height:auto;}
+#largeImage.desktop{display:block;border:1px solid #dadada;}
+.accordion-toggle h4 {text-align:left;font-size:1em;color:#555;}
+.accordion-toggle {background:#dddddd;padding:.3em 1.5em;cursor: pointer; border:1px solid #fafafa;}
+.accordion-content {display: none;}
+.accordion-content.default {display: block;}
+.accordion-content p {margin:.5em;}
+.small-icon {display:inline-block; margin:.5em;}
+.arrow-right {margin-top:-1.9em;}
+.btn-demo-orange {background-color:#009cde; color:#fff;margin-top:.5em;padding:5px 15px;}
+.btn:hover{background-color:#555;color:#fff;}
+.btn-view-detail{background-color:#555555;border-radius:0px;color:#ffffff;font-size:1.4em; margin-bottom:.3em; padding:6px; text-transform:uppercase; width:100%;}
+.btn-view-detail:hover{background-color:#000;}
+.btn-invest{background-color:#007dc5;border-radius:0px;color:#ffffff;font-size:1.4em; margin-bottom:.3em; padding:6px; text-transform:uppercase; width:100%;margin-top:1.5em;}
+.btn-invest:hover {color:#fff;background-color:#555;}
+.divider-text-about {margin-top:3%;}
+.form-control {margin:5px 0;}
+.parallaxOne{background:url(http://wealthforge.com/img/modern-interior-2.jpg) 50% 65%;background-size:cover;height:450px; width:100%;}
+.jumbotron{border-radius:0px !important; background-color:rgba(255,255,255,0);margin:12% 0;padding:5% !important;}
+.jumbotron h1 {text-transform:none; font-size:4.7em;font-weight:600; color:#fff;line-height:.8em; text-shadow: 2px 2px 7px #333;}
+.jumbotron p.subhead {text-transform:none; color:#fff; font-weight:600; font-size:1.4em;text-shadow: 2px 2px 15px #000;}
+.gray-bckgrnd {background-color:#fafafa;}
+.login {border:1px solid #eaeaea;padding:2px 10px;}
+.login-heading{font-size:1.1em;margin-left:5px; padding:10px;color:#000;font-weight:700;}
+.headshots {margin:3em 0 .5em 0; border: 3px solid #ffffff;border-radius:60%;background-color:eee;-webkit-box-shadow: 6px 3px 11px 0 rgba(0, 0, 0, 0.5);-moz-box-shadow: 6px 3px 11px 0 rgba(0, 0, 0, 0.5);box-shadow: 6px 3px 11px 0 rgba(0, 0, 0, 0.5);}
+.home-image {margin-bottom:10px;}
+.tombstone {border:none;margin-top:3.5em;padding:1.7% .9%;}
+.tombstone-heading {color:#666666; font-size:1em;font-weight:bold; text-align:center;display:block; margin:1em 0;height:35px;}
+.tombstone-copy {color:#999; font-size:.8em; margin-bottom:2em;}
+.detail-heading {color:#666666; font-size:1.2em;font-weight:bold; text-align:left;display:block; margin:1em 0;}
+.main-section{padding:2% 0 5% 0;}
+.heading{font-size:1.4em;margin-left:-10px; padding:10px;color:#000;font-weight:700;text-transform:none;text-align:left;font-family:'Open Sans,' sans-serif;}
+.subhead{color:#999;text-transform:uppercase;font-size:.9em;margin:5px 0;}
+.subhead-detail-page{color:#555;text-transform:uppercase;font-size:1em;margin:5px 0;}
+.subhead-lower{color:#999;font-size:.9em;}
+.subhead-detail{color:#555;text-transform:uppercase;font-size:1.1em;margin-top:.5em;}
+.details-heading {color:#666666; font-size:1.4em;font-weight:bold; display:block;}
+.mg-image img {
+    -webkit-transition: all 1s ease; /* Safari and Chrome */
+    -moz-transition: all 1s ease; /* Firefox */
+    -o-transition: all 1s ease; /* IE 9 */
+    -ms-transition: all 1s ease; /* Opera */
+    transition: all 1s ease;
+}
+.mg-image:hover img {
+    -webkit-transform:scale(1.25); /* Safari and Chrome */
+    -moz-transform:scale(1.25); /* Firefox */
+    -ms-transform:scale(1.25); /* IE 9 */
+    -o-transform:scale(1.25); /* Opera */
+     transform:scale(1.25);
+}
+.mg-image {overflow: hidden;}
+.small {font-weight:300;margin-top:.5em;}
+.detail-list li {color:#555; font-size:.9em; margin:1.5em 0 0 -2em;}
+.border {border:1px solid #eaeaea;margin-top:2em;padding:.5em;}
+.dark-gray-text{color:#333;}
+.ribbon-wrapper {width: 85px;height: 88px;overflow: hidden;position:absolute;right: 10px;}
+.ribbon{color: #fff !important;text-align: center;-webkit-transform: rotate(45deg);-moz-transform:    rotate(45deg);-ms-transform:     rotate(45deg);-o-transform: rotate(45deg);position: relative;padding: 7px 0;left: -5px;top: 15px;width: 120px;background-color: rgba(0, 0, 0, 0.8);background: rgba(0, 0, 0, 0.8);color: rgba(0, 0, 0, 0.8);-webkit-box-shadow: 0px 0px 3px rgba(0,0,0,0.3);-moz-box-shadow:    0px 0px 3px rgba(0,0,0,0.3);box-shadow:0px 0px 3px rgba(0,0,0,0.3);}
+.ribbon-active{color: #fff !important;text-align: center;-webkit-transform: rotate(45deg);-moz-transform:rotate(45deg);-ms-transform:     rotate(45deg);-o-transform:rotate(45deg);position: relative;padding: 7px 0;left: -5px;top: 15px;width: 120px;background-color: rgba(255, 102, 0, 0.9);background: rgba(255, 102, 0, 0.9);color: rgba(255, 102, 0, 0.9);-webkit-box-shadow: 0px 0px 3px rgba(0,0,0,0.3);-moz-box-shadow:    0px 0px 3px rgba(0,0,0,0.3);box-shadow:0px 0px 3px rgba(0,0,0,0.3);}
+.ribbon:before, .ribbon:after {content: "";border-top:   3px solid transparent; border-left:  3px solid transparent;border-right: 3px solid transparent;position:absolute;bottom: -3px;}
+.ribbon:before {left: 0;}
+.ribbon:after {right: 0;}
+.quote {margin-top:1.6em;text-transform:uppercase;font-size:1.5em;}
+.complete{display:none;}
+.more{background:lightblue;color:navy;font-size:13px;padding:3px;cursor:pointer;}
+
+/* Media Queries */
+
+@media (max-width:768px) {
+	#largeImage.mobile {display:none;}
+	#thumbs img {width:100%; height:auto;}
+	.ribbon-wrapper {right:2px;}
+	.accordion-toggle h4 {font-size:.8em;}
+	.detail-margin{margin-top:2.3em;}
+	.small-icon {display:none;}
+	.detail-list li {font-size:75%;}
+	.mobile-margin {margin:0 .2em;}
+	.social {float:left;}
+}
