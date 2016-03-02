@@ -38,7 +38,8 @@ module.exports = function(grunt) {
 				files: [
 					{src: 'build/css/bootstrap.min.css', dest: 'dist/css/bootstrap.min.css'},
 					{src: 'build/js/bootstrap.min.js', dest: 'dist/js/bootstrap.min.js'},
-					{expand: true, cwd: 'build/img', src: '**', dest: 'dist/img/'}
+					{expand: true, cwd: 'build/img', src: '**', dest: 'dist/img/'},
+					{expand: true, cwd: 'build/pdf', src: '**', dest: 'dist/pdf/'}
 				]
 			}
 		}
