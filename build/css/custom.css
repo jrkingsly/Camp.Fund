@@ -76,6 +76,7 @@ label{font-size:.9em;margin-bottom:5px;color:#555;}
 .complete{display:none;}
 .more{background:lightblue;color:navy;font-size:13px;padding:3px;cursor:pointer;}
 p.lite-sm {font-weight:700;}
+.mobile-list {display:none;}
 .mobile-container{display:none;}
 .footnote {font-size: 12px;
     margin-top: 1em;}
