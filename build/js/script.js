@@ -1,6 +1,6 @@
 $(function(){
 	
-	$('#accordion').find('.accordion-toggle').click(function(){
+	$('#accordion, #accordion-mobile').find('.accordion-toggle').click(function(){
 		//Hide the other panels
 		$(".accordion-content").not($(this).next()).slideUp('fast');
 		//Expand or collapse this panel
@@ -20,12 +20,12 @@ $(function(){
 	
 	$('#box').hide();
 	
-	$('#clickme').on('click', function(e) {
+	$('#clickme, #clickme-mobile').on('click', function(e) {
 	    e.preventDefault();
 	    $(this).text(
 	    	$(this).text() === 'Hide' ? 'Read More' : 'Hide'
 	    );
-	    $('#box').slideToggle();
+	    $('#box, #box-mobile').slideToggle();
 	});
 });	
 	
