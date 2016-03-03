@@ -21,7 +21,7 @@ label{font-size:.9em;margin-bottom:5px;color:#555;}
 .arrow-right {margin-top:-1.9em;}
 .btn-demo-orange {background-color:#009cde; color:#fff;margin-top:.5em;padding:5px 15px;}
 .btn:hover{background-color:#555;color:#fff;}
-.btn-view-detail{background-color:#555555;border-radius:0px;color:#ffffff;font-size:1.4em; margin-bottom:.3em; padding:6px; text-transform:uppercase; width:100%;}
+.btn-view-detail{border-radius:0px;color:#ffffff;font-size:1.4em; margin-bottom:.3em; padding:6px; text-transform:uppercase; width:100%;}
 .btn-view-detail:hover{background-color:#000;}
 .btn-invest{background-color:#007dc5;border-radius:0px;color:#ffffff;font-size:1.4em; margin-bottom:.3em; padding:6px; text-transform:uppercase; width:100%;margin-top:1.5em;}
 .btn-invest:hover {color:#fff;background-color:#555;}
@@ -98,8 +98,7 @@ p.lite-sm {font-weight:700;}
 	.mobile-list .td-left-col {padding-right: 20px; width: 50%;}
 	.desktop-container{display:none;}
 	.mobile-container{display:block;}
-	#largeImage-mobile {display: block;
-    border: 1px solid #dadada;
-    margin-top: 10px;}
+	#largeImage-mobile {display: block;border: 1px solid #dadada; margin-top: 10px;}
+	#accordion-mobile {float: left; width:100%;}
 	
 }
