@@ -80,6 +80,10 @@ p.lite-sm {font-weight:700;}
 .mobile-container{display:none;}
 .footnote {font-size: 12px;
     margin-top: 1em;}
+.td-left-col {width:30%;}    
+.td-right-col {padding-left: 25px;}
+.desktop-list .investment-table {border-collapse: inherit; border-spacing: 20px;}    
+    
 
 /* Media Queries */
 
