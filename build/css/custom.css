@@ -2,7 +2,7 @@
 /* CSS Document */
 
 ul {padding-left:12px;}
-h1, h2 {color:#000;font-weight:400;}
+h1, h2, h3, h4, h5 {color:#000;font-weight:400;}
 h2 {font-size:2.5em;}
 img {max-width:100%; height:auto;}
 label{font-size:.9em;margin-bottom:5px;color:#555;}
@@ -83,6 +83,11 @@ p.lite-sm {font-weight:700;}
 .td-left-col {width:30%;}    
 .td-right-col {padding-left: 25px;}
 .desktop-list .investment-table {border-collapse: inherit; border-spacing: 20px;}    
+
+/* DISCLAIMER PAGE */
+.disclaimer {text-align: center;}
+.disclaimer img {width: 40%;}
+.disclaimer p {font-size: 18px;}
     
 
 /* Media Queries */
@@ -104,5 +109,8 @@ p.lite-sm {font-weight:700;}
 	.mobile-container{display:block;}
 	#largeImage-mobile {display: block;border: 1px solid #dadada; margin-top: 10px;}
 	#accordion-mobile {float: left; width:100%;}
+	
+	.disclaimer img {width: 100%;}
+	.disclaimer h1 {font-size: 36px;}
 	
 }

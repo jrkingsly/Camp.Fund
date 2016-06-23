@@ -28,7 +28,8 @@ module.exports = function(grunt) {
 					collapseWhitespace: true
 				},
 				files: {
-					'dist/index.html': 'build/index.html'
+					'dist/index.html': 'build/index.html',
+					'dist/test.html' : 'build/test.html'
 				}
 			}
 		},
