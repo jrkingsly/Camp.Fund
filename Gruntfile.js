@@ -28,8 +28,7 @@ module.exports = function(grunt) {
 					collapseWhitespace: true
 				},
 				files: {
-					'dist/index.html': 'build/index.html',
-					'dist/test.html' : 'build/test.html'
+					'dist/index.html': 'build/index.html'
 				}
 			}
 		},
@@ -40,7 +39,8 @@ module.exports = function(grunt) {
 					{src: 'build/css/bootstrap.min.css', dest: 'dist/css/bootstrap.min.css'},
 					{src: 'build/js/bootstrap.min.js', dest: 'dist/js/bootstrap.min.js'},
 					{expand: true, cwd: 'build/img', src: '**', dest: 'dist/img/'},
-					{expand: true, cwd: 'build/pdf', src: '**', dest: 'dist/pdf/'}
+					{expand: true, cwd: 'build/pdf', src: '**', dest: 'dist/pdf/'},
+					{expand: true, cwd: 'build/_OLD', src: '**', dest: 'dist/_OLD/'}
 				]
 			}
 		}
