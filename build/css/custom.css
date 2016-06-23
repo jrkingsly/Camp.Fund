@@ -86,8 +86,10 @@ p.lite-sm {font-weight:700;}
 
 /* DISCLAIMER PAGE */
 .disclaimer {text-align: center;}
-.disclaimer img {width: 40%;}
-.disclaimer p {font-size: 18px;}
+.disclaimer img {width: 35%; margin: 30px 0;}
+.disclaimer h1 {color: #333; font-size: 2.8em;}
+.disclaimer p {font-size: 18px; color: #333;}
+.disclaimer a {color: #4f758c; text-decoration: underline;}
     
 
 /* Media Queries */
